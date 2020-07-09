@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'MB-300.0 Practice Lab'
+    module: 'Module 06'
+---
+
 # Exercise - Create a purchase requisition workflow
 
 The Finance and Operations module that you're working in determines the types of workflow that you can create.

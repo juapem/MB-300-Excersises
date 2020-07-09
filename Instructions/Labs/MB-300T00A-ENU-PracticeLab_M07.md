@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'MB-300.0 Practice Lab'
+    module: 'Module 07'
+---
+
 # Exercise 1: Configure a new legal entity
 
 A legal entity is an organization that is identified through registration with a legal authority. Legal entities can enter into contracts and are required to prepare statements that report on their performance.

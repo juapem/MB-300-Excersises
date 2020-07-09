@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'MB-300.0 Practice Lab'
+    module: 'Module 05'
+---
+
 # Exercise - Create and test a mobile app
 
 The goal of the lab exercise is to apply the knowledge you’ve gained regarding building and working with workspaces in Finance and Operations. The mobile app designer lets you select the specific data fields from forms that should appear in the mobile app.

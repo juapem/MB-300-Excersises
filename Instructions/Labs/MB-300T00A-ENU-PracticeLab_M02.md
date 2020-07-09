@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'MB-300.0 Practice Lab'
+    module: 'Module 02'
+---
+
 # Exercise 1: Create a task recording
 
 In this exercise, you will:

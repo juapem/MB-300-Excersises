@@ -1,4 +1,8 @@
-
+---
+lab:
+    title: 'MB-300.0 Practice Lab'
+    module: 'Module 13'
+---
 
 # Exercise - Build test scripts to test business functionality
 

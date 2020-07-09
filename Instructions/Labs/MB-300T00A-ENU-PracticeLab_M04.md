@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'MB-300.0 Practice Lab'
+    module: 'Module 04'
+---
+
 # Exercise 1: Generate and explore a financial report
 
 You need to generate and explore an existing default financial report. 

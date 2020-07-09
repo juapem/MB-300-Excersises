@@ -1,4 +1,8 @@
-
+---
+lab:
+    title: 'MB-300.0 Practice Lab'
+    module: 'Module 09'
+---
 
 # Exercise 1: Personalize user options
 

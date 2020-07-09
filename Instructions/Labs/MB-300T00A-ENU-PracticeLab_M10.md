@@ -1,4 +1,8 @@
-
+---
+lab:
+    title: 'MB-300.0 Practice Lab'
+    module: 'Module 10'
+---
 
 # Exercise 1: Use office integration
 

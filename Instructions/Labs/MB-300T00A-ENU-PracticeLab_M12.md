@@ -1,4 +1,8 @@
-
+---
+lab:
+    title: 'MB-300.0 Practice Lab'
+    module: 'Module 12'
+---
 
 # Exercise 1 – Explore the Data management workspace
 

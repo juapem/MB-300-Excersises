@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'MB-300.0 Practice Lab'
+    module: 'Module 01'
+---
+
 ## **Before you begin**
 
 To get the most out of this exercise and the other exercises that are included with this module, we recommend that you have the standard sample data available in Finance and Operations that is installed using Lifecycle Services (LCS).

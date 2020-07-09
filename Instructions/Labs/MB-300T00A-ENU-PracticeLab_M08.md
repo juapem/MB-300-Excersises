@@ -1,4 +1,8 @@
-
+---
+lab:
+    title: 'MB-300.0 Practice Lab'
+    module: 'Module 08'
+---
 
 # Exercise 1: Create a new user and assign a security role
 
