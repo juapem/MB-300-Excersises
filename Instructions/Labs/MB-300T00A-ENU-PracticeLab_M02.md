@@ -22,10 +22,7 @@ In this exercise, you will:
 6. Go to the **Dashboard** by clicking **Finance and Operations** in the navigation bar.
 
 7. Go to **Settings &gt; Task recorder**.
-
-
- ![Settings is the gear in the top right and under it you will find task recorder](../media/mb-300-t-000-a-enu-practicelab-m-002-01.png)
-
+   ![Settings is the gear in the top right and under it you will find task recorder](../media/mb-300-t-000-a-enu-practicelab-m-002-01.png)
 
 8. The **Task recorder** pane opens. You can click the "**X**" in the upper-right corner to close the **Task recorder** pane before beginning a new recording. The pane can be reopened by following the previous steps.
 
