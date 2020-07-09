@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'MB-300.0 Practice Lab：Module 01'
+    title: 'MB-300.0 Practice Lab: Module 01'
     module: 'Module 01'
 ---
 
