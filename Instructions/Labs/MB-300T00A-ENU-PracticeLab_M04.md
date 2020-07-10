@@ -23,7 +23,7 @@ First, we'll update the display order of dimensions for financial reporting. Thi
 
 1. Go to **Financial dimension configuration for integrating applications** under the **Dimensions of Chart of Accounts** in **General ledger**. 
 
-	![Screenshot of defining financial dimension formats for data entities](media/mb-300-t-000-a-enu-practicelab-m-004-01.png) 
+	![Screenshot of defining financial dimension formats for data entities](../media/mb-300-t-000-a-enu-practicelab-m-004-01.png) 
 
 
 2. Arrange the dimensions so that the **Main Account** is first on the list. 
