@@ -85,7 +85,7 @@ You may have need to copy a library, for example: for a variation. This task ill
 19. Verify that you are in the company that you want to use while recording: **USMF**.
 
 20. Go to **Settings &gt; Task recorder**.  
-	![Task recorder](media/mb-300-t-000-a-enu-practicelab-m-113-01.png)
+	![Task recorder](../media/mb-300-t-000-a-enu-practicelab-m-113-01.png)
 
 
 21. Select **Create recording**.
