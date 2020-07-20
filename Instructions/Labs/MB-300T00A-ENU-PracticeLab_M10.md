@@ -83,7 +83,7 @@ You need to use and build office integration that involves Excel, Word, Document
 
 9. Change the field order. In the **Selected** list, click a field, and then select **Up** or **Down**.
 
-10. Change a field label. In the **Selected** list, click a field, and then select the **Column label** field below the list. You can change the label to either a static string or a label identifier that will be translated to the active language (for example, **\@SYS129977**).
+10. Change a field label. In the **Selected** list, click a field, and then select the **Column label** field below the list. You can change the label to either a static string or a label identifier that will be translated to the active language (for example, **`@SYS129977`**).
 
 11. To apply the changes that you made to data source fields, select **Update** to return to the data source list.
 
