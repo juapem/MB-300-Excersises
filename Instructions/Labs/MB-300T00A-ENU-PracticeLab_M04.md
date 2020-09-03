@@ -1,372 +1,507 @@
----
-lab:
-    title: 'MB-300.0 Practice Lab: Module 04'
-    module: 'Module 04'
----
+Change Log
+<html><table>
+<tr><th>Date</th><th>Location</th><th>Change</th></tr>
+<tr><td>01Sep2020</td><td>Exercise 1</td><td>Corrected Part 2, steps 2 and 6 due to changed report names and data <br>Clarified Part 1 steps 1 and 2, and Part 2 step 4</td></tr>
+</table>
+</html>
 
-# Exercise 1: Generate and explore a financial report
 
-You need to generate and explore an existing default financial report. 
+Exercise 1: Generate and explore a financial report
+===================================================
 
-This report includes all accounts and contains account properties (attributes) for the accounts. 
+You need to generate and explore an existing default financial report.  
 
-You'll be drilling into transaction detail, applying dimension filters, and changing the currency on the report. 
+This report includes all accounts and contains account properties (attributes)
+for the accounts.  
 
- 
-**Before you begin**
+You'll be drilling into transaction detail, applying dimension filters, and
+changing the currency on the report.  
 
-To get the most out of this exercise and the other exercises that are included with this module, we recommend that you have the standard sample data available in Finance and Operations that is installed using Lifecycle services (LCS).  
+ 
 
+Before you begin 
 
-First, we'll update the display order of dimensions for financial reporting. This allows you to select how the dimensions display 
+To get the most out of this exercise and the other exercises that are included
+with this module, we recommend that you have the standard sample data available
+in Finance and Operations that is installed using Lifecycle services (LCS).  
 
+ 
 
-1. Go to **Financial dimension configuration for integrating applications** under the **Dimensions of Chart of Accounts** in **General ledger**. 
+First, we'll update the display order of dimensions for financial reporting.
+This allows you to select how the dimensions display 
 
-	![Screenshot of defining financial dimension formats for data entities](../media/mb-300-t-000-a-enu-practicelab-m-004-01.png) 
+ 
 
+1.  Go to **Financial dimension configuration for integrating
+    applications** under  **Dimensions** of **Chart of Accounts** in **General
+    ledger**. 
 
-2. Arrange the dimensions so that the **Main Account** is first on the list. 
+![Screenshot of defining financial dimension formats for data entities](media/477825639e3f358a4af953cf9f92ed6f.png)
 
-3. Arrange the dimensions so that the **Business Unit** is second on the list  
+ 
 
-4. Arrange the dimensions so that the **Cost Center** is third on the list 
+1.  Arrange the dimensions so that the **Main Account** is first on the
+    list. You may need to expand the Financial dimensions Fast Tab to see the
+    dimensions
 
-5. Arrange the dimensions so that the **Department** is forth on the list 
+2.  Arrange the dimensions so that the **Business Unit** is second on the list  
 
-6. Save the dimension configuration.  
+3.  Arrange the dimensions so that the **Cost Center** is third on the list 
 
+4.  Arrange the dimensions so that the **Department** is forth on the list 
 
-**Generate a report and explore the data in the report.** 
+5.  Save the dimension configuration.  
 
-1. Go to **Financial reports** under **Inquiries and reports** in **General ledger**. 
+>    
 
-2. Select the row for the report named **GL Detail – Default**. 
+Generate a report and explore the data in the report. 
 
-3. Click **Edit**. 
+1.  Go to **Financial reports** under **Inquiries and reports** in **General
+    ledger**. 
 
-4. You'll be prompted to download the click-once report designer and to log in.  
+2.  Select the row for the report named Ledger Transaction List – Default.
 
-5. Use your credentials to log in. 
+3.  Click **Edit**. 
 
-6. Change the base year to 2012 and select **Generate**.  
+4.  You'll be prompted to download the click-once report designer and to log in.
+    Always allow pop-ups  
 
-7. When a report is generated from the report designer, it will open in a new browser tab.  
+5.  Use your credentials to log in. 
 
-8. You can either explorer the report in the new browser tab or go to your original browser tab and open the report from there by selecting it from the **Financial reports** list. 
+6.  Change the parameters as below and select **Generate**:
 
-9. In the opened report, select one of the amounts to drill into the account detail for the report. 
+    1.  Base period: 8
 
-10. Once in account detail, select an account with data and click **drill to report transaction level**.  
+    2.  Base year: 2017
 
-11. At the report transaction level, you can see the properties (attributes) that are included in the design of this report. Depending on the transaction and account, some or all the attributes may be displayed. 
+    3.  Row: Trial Balance – Default
 
-12. Close the report transaction level. 
+    4.  Column: GL Detail - Default
 
-13. Select the same or a different account and click **open voucher transactions**. Voucher transactions are filtered to the period, year and account and dimension combination of the account selected. From **Voucher transactions**, you can select to explore other information about the transaction. 
+    5.  Note: If you get no data, try different time periods
 
-14. Close the **Voucher transactions** page. Within a financial report, you can select to view the data either for a different period and year, or with different attributes and dimensions applied. This is done by using **Report options**. 
+7.  When a report is generated from the report designer, it will open in a new
+    browser tab.  
 
-15. Select **Report options**. 
+8.  You can either explorer the report in the new browser tab or go to your
+    original browser tab and open the report from there by selecting it from
+    the **Financial reports** list. 
 
-16. Select **Add a dimension filter** and type ‘001’ in the **Business unit** field. 
+9.  In the opened report, select one of the amounts to drill into the account
+    detail for the report. 
 
-17. Click **OK**.  
+10. Once in account detail, select an account with data and click **drill to
+    report transaction level**.  
 
-18. The report now displays only the data for the 001 Business Unit. This is a personalized view of the report and isn't available for others to view. 
+11. At the report transaction level, you can see the properties (attributes)
+    that are included in the design of this report. Depending on the transaction
+    and account, some or all the attributes may be displayed. 
 
-19. Close the filtered report. Financial reports can be displayed in any currency that has been added to Finance and Operations. 
+12. Close the report transaction level. 
 
-20. Select **Currency**, then select **EUR**. The report now displays in Euros. Any currency codes or currency symbols included in the report design now display in the applied currency. If no currency symbol is defined for a currency, the currency symbol is not displayed. 
+13. Select the same or a different account and click **open voucher
+    transactions**. Voucher transactions are filtered to the period, year and
+    account and dimension combination of the account selected. From **Voucher
+    transactions**, you can select to explore other information about the
+    transaction. 
 
-21. Close the **GL Detail** report. 
+14. Close the **Voucher transactions** page. Within a financial report, you can
+    select to view the data either for a different period and year, or with
+    different attributes and dimensions applied. This is done by using **Report
+    options**. 
 
-22. Close the **Report designer**. 
+15. Select **Report options**. 
 
+16. Select **Add a dimension filter** and type ‘001’ in the **Business unit**
+    field. 
 
-# Exercise 2: Add additional account properties to a report design
+17. Click **OK**.  
 
-Now you will update a row definition to include all accounts, and the column definition to contain account attributes. Once the updates are complete, you'll generate the newly created report and explore the report. 
+18. The report now displays only the data for the 001 Business Unit. This is a
+    personalized view of the report and isn't available for others to view. 
 
+19. Close the filtered report. Financial reports can be displayed in any
+    currency that has been added to Finance and Operations. 
 
-1. Go to **Financial reports** under **Inquiries and reports** in the **General ledger** module. 
+20. Select **Currency**, then select **EUR**. The report now displays in Euros.
+    Any currency codes or currency symbols included in the report design now
+    display in the applied currency. If no currency symbol is defined for a
+    currency, the currency symbol is not displayed. 
 
-2. Select the row for the report named **Summary Trial Balance – Default**. 
+21. Close the **GL Detail** report. 
 
-3. Select **Edit**. **Summary Trial Balance – Default** to open the Report designer. 
+22. Close the **Report designer**. 
 
-4. Select **File**, then **Save As** and name the report ’Detailed trial balance with attributes’. 
+ 
 
-5. Any time a new report is created in the Report designer, the financial reports list is updated in Finance and Operations. 
+Exercise 2: Add additional account properties to a report design
+================================================================
 
-6. From the report definition, select the **Row definition** icon to open the **Trial Balance – Default row definition**. 
+Now you will update a row definition to include all accounts, and the column
+definition to contain account attributes. Once the updates are complete, you'll
+generate the newly created report and explore the report. 
 
-7. Save the row definition as ‘Detailed trial balance with attributes’. 
+ 
 
-8. With the cursor on row 50, select **Edit**, then **Insert Rows from Dimensions**. Insert rows from dimensions allows you to choose which dimensions you'd like to have in your row definition.  
+1.  Go to **Financial reports** under **Inquiries and reports** in the **General
+    ledger** module. 
 
-9. You are going to build the row definition using Main account. 
+2.  Select the row for the report named **Summary Trial Balance – Default**. 
 
-10. Make sure **Main account** contains all ampersands and select **OK**. The row definition now contains all the main accounts for legal entity USMF. 
+3.  Select **Edit**. **Summary Trial Balance – Default** to open the Report
+    designer. 
 
-11. Scroll down to row 11110 and delete row 11110. 
+4.  Select **File**, then **Save As** and name the report ’Detailed trial
+    balance with attributes’. 
 
-12. In row 11080, select **--- (Underscore amounts)**. 
+5.  Any time a new report is created in the Report designer, the financial
+    reports list is updated in Finance and Operations. 
 
-13. In row 11140, type ‘Total of all accounts’ in column B. 
+6.  From the report definition, select the **Row definition** icon to open
+    the **Trial Balance – Default row definition**. 
 
-14. In column C, select **TOT** from the drop down. 
+7.  Save the row definition as ‘Detailed trial balance with attributes’. 
 
-15. Type ‘50:11080’ in column D. 
+8.  With the cursor on row 50, select **Edit**, then **Insert Rows from
+    Dimensions**. Insert rows from dimensions allows you to choose which
+    dimensions you'd like to have in your row definition.  
 
-16. **Save** the row definition.  
+9.  You are going to build the row definition using Main account. 
 
-17. The row definition now contains all the accounts plus a total row to add all the accounts together.    
-‎ 
+10. Make sure **Main account** contains all ampersands and select **OK**. The
+    row definition now contains all the main accounts for legal entity USMF. 
 
-**Update the column definition to include additional account attributes** 
+11. Scroll down to row 11110 and delete row 11110. 
 
-1. From the **Detailed trial balance with attributes** report definition, select the column definition icon to open the **Summary Trial Balance – Default** column definition. 
+12. In row 11080, select **--- (Underscore amounts)**. 
 
-2. Save the column definition as ‘Detailed trial balance with attributes’.  
+13. In row 11140, type ‘Total of all accounts’ in column B. 
 
-3. The column definition contains financial data columns, a description column and calculation columns.  
+14. In column C, select **TOT** from the drop down. 
 
-4. Add the **Journal description** attribute columns to the column definition to provide additional detail about the accounts. 
+15. Type ‘50:11080’ in column D. 
 
-5. Add the **Transaction date** attribute columns to the column definition. 
+16. **Save** the row definition.  
 
-6. Add the **Created by** attribute columns to the column definition. 
+17. The row definition now contains all the accounts plus a total row to add all
+    the accounts together.    
+     
 
-7. Add the **Last modified by** attribute columns to the column definition. 
+Update the column definition to include additional account attributes 
 
-8. In column I, select **ATTR** as the column type.  
+ 
 
-9. Select **Journal number** as the attribute category. 
+1.  From the **Detailed trial balance with attributes** report definition,
+    select the column definition icon to open the **Summary Trial Balance –
+    Default** column definition. 
 
-10. Continue adding columns for the remaining attributes. 
+2.  Save the column definition as ‘Detailed trial balance with attributes’.  
 
-11. In the **Header 2** row, add descriptions for each of the new columns that have been added. 
+3.  The column definition contains financial data columns, a description column
+    and calculation columns.  
 
-12. Save the column definition. Now that the row definition and column definition have been updated, we'll need to add them to the report definition. 
+4.  Add the **Journal description** attribute columns to the column definition
+    to provide additional detail about the accounts. 
 
-13. From the **Detailed trial balance with attributes** report definition, select **Detailed trial balance with attributes** for both the row definition and column definition. 
+5.  Add the **Transaction date** attribute columns to the column definition. 
 
-14. Change the base year to ‘2012’. 
+6.  Add the **Created by** attribute columns to the column definition. 
 
-15. **Save** the report definition and then click **Generate**. When the report opens, you can explore the report as you did in the first exercise.  
+7.  Add the **Last modified by** attribute columns to the column definition. 
 
-16. Drill down on different accounts to see how the additional attributes are displayed. 
+8.  In column I, select **ATTR** as the column type.  
 
-17. Close the **Detailed trial balance with attributes** report. 
+9.  Select **Journal number** as the attribute category. 
 
-18. Close the **Report designer**. 
+10. Continue adding columns for the remaining attributes. 
 
+11. In the **Header 2** row, add descriptions for each of the new columns that
+    have been added. 
 
-# Exercise 3: Create a multidimensional report using a reporting tree
+12. Save the column definition. Now that the row definition and column
+    definition have been updated, we'll need to add them to the report
+    definition. 
 
-You need to modify an existing default report.  You will create a reporting tree and add to a report definition to produce a Cost center/divisional income statement. When the updates are complete, you'll generate the Cost center/divisional income statement and explore the report using the reporting tree. 
+13. From the **Detailed trial balance with attributes** report definition,
+    select **Detailed trial balance with attributes** for both the row
+    definition and column definition. 
 
+14. Change the base year to ‘2012’. 
 
-1. Go to **Financial reports** under **Inquiries and reports** in the **General ledger** module. 
+15. **Save** the report definition and then click **Generate**. When the report
+    opens, you can explore the report as you did in the first exercise.  
 
-2. Select the row for the report named **Income Statement – Default**. 
+16. Drill down on different accounts to see how the additional attributes are
+    displayed. 
 
-3. Select **Edit**. **Income statement – default** will open in Report designer. 
+17. Close the **Detailed trial balance with attributes** report. 
 
-4. On the **File** menu, point to **New**, and then click **Reporting tree definition**. 
+18. Close the **Report designer**. 
 
-5. On the **Edit** menu, click **Insert reporting units from dimensions**. 
+Exercise 3: Create a multidimensional report using a reporting tree
+===================================================================
 
-6. Clear check boxes for all dimensions, except **Cost center**. 
+>   You need to modify an existing default report.  You will create a reporting
+>   tree and add to a report definition to produce a Cost center/divisional
+>   income statement. When the updates are complete, you'll generate the Cost
+>   center/divisional income statement and explore the report using the
+>   reporting tree. 
 
-7. Click the **From dimension** field for the Cost center dimension, type ‘007’, and then press the **Tab** key.  
+>    
 
-8. In the **To dimension** field, type ‘018’. 
+1.  Go to **Financial reports** under **Inquiries and reports** in the **General
+    ledger** module. 
 
-9. **Save** the resulting tree with the name ‘Cost centers by division’.  
+2.  Select the row for the report named **Income Statement – Default**. 
 
+3.  Select **Edit**. **Income statement – default** will open in Report
+    designer. 
 
-Now that the reporting tree is created, you'll modify the reporting tree to contain three new rollup units; **Marketing**, **Operations** and **Retail**. 
+4.  On the **File** menu, point to **New**, and then click **Reporting tree
+    definition**. 
 
+5.  On the **Edit** menu, click **Insert reporting units from dimensions**. 
 
-10. On the **Window** menu, click **Cost centers by division**.  
+6.  Clear check boxes for all dimensions, except **Cost center**. 
 
-11. If the reporting tree has been closed, select it from the **Reporting tree definitions** in the Navigation pane. 
+7.  Click the **From dimension** field for the Cost center dimension,
+    type ‘007’, and then press the **Tab** key.  
 
-12. Click unit number two, **Trade shows**, and click the **Insert reporting unit** icon. 
+8.  In the **To dimension** field, type ‘018’. 
 
-13. Double-click the entity column on the blank row and select **USMF**. 
+9.  **Save** the resulting tree with the name ‘Cost centers by division’.  
 
-14. Type **Marketing** in columns B and C. 
+>   Now that the reporting tree is created, you'll modify the reporting tree to
+>   contain three new rollup units; **Marketing**, **Operations** and
+>   **Retail**. 
 
-15. Click unit number five, **Service operations**, and right-click.  
+1.  On the **Window** menu, click **Cost centers by division**.  
 
-16. Select **Insert reporting unit**. 
+2.  If the reporting tree has been closed, select it from the **Reporting tree
+    definitions** in the Navigation pane. 
 
-17. On the **Window** menu, click **Cost centers by division**.  
+3.  Click unit number two, **Trade shows**, and click the **Insert reporting
+    unit** icon. 
 
-18. Type **Operations** in columns B and C. 
+4.  Double-click the entity column on the blank row and select **USMF**. 
 
-19. Click unit number twelve, **Outlet**, and right-click.  
+5.  Type **Marketing** in columns B and C. 
 
-20. Select **Insert reporting unit**. 
+6.  Click unit number five, **Service operations**, and right-click.  
 
-21. On the **Window** menu, click **Cost centers by division**.  
+7.  Select **Insert reporting unit**. 
 
-22. Type **Retail** in columns B and C. Notice the **Marketing**, **Operations** and **Retail** units display at the same level as the current rollup units.  
+8.  On the **Window** menu, click **Cost centers by division**.  
 
-23. The new units are organized next. Reporting units are organized through the right-click options; promote and demote, or by drag and drop. 
+9.  Type **Operations** in columns B and C. 
 
-24. Verify unit three, **Trade shows**, is active and right-click. 
+10. Click unit number twelve, **Outlet**, and right-click.  
 
-25. Select **Demote reporting unit**. Notice the unit now displays as a child of **Marketing**. 
+11. Select **Insert reporting unit**. 
 
-26. Click unit four, **Marketing campaign**, and right-click. 
+12. On the **Window** menu, click **Cost centers by division**.  
 
-27. Select **Demote reporting unit**. 
+13. Type **Retail** in columns B and C. Notice the **Marketing**, **Operations**
+    and **Retail** units display at the same level as the current rollup
+    units.  
 
-28. Click **Service operations** in the graphical display. Press and hold down the left mouse button while dragging the unit up to **Operations**.  
+14. The new units are organized next. Reporting units are organized through the
+    right-click options; promote and demote, or by drag and drop. 
 
-29. Release the left mouse to drop the unit into Operation's rollup. Repeat for **Production, Quality Control, Logistics, Procurement** and **Administration**. 
+15. Verify unit three, **Trade shows**, is active and right-click. 
 
-30. Make **Outlet**, **Super**, **Mall**, and **Online** children of **Retail** by either demoting them or dragging and dropping them. 
+16. Select **Demote reporting unit**. Notice the unit now displays as a child
+    of **Marketing**. 
 
-31. Save the resulting re-organization. Now that we have the reporting tree created and organized, it can be added to the report definition. 
+17. Click unit four, **Marketing campaign**, and right-click. 
 
-32. On the **Window** menu, select **Income statement – Default** to open the report definition. 
+18. Select **Demote reporting unit**. 
 
-33. Click the **Tree type** drop-down arrow and select **Reporting tree**. 
+19. Click **Service operations** in the graphical display. Press and hold down
+    the left mouse button while dragging the unit up to **Operations**.  
 
-34. Click the **Tree** drop-down arrow and select **Cost centers by division**. 
+20. Release the left mouse to drop the unit into Operation's rollup. Repeat
+    for **Production, Quality Control, Logistics, Procurement** and
+    **Administration**. 
 
-35. Change the base year to ‘2012’, save the changes and click **Generate**. When the report opens, you can explore the report. 
+21. Make **Outlet**, **Super**, **Mall**, and **Online** children
+    of **Retail** by either demoting them or dragging and dropping them. 
 
-36. Select the **Reporting tree** drop-down to view the reporting units.  
+22. Save the resulting re-organization. Now that we have the reporting tree
+    created and organized, it can be added to the report definition. 
 
-37. Or, you can drill down on a row of the report to see all the balances for all units of the reporting tree. 
+23. On the **Window** menu, select **Income statement – Default** to open the
+    report definition. 
 
-38. Close **Income statement – default**. 
+24. Click the **Tree type** drop-down arrow and select **Reporting tree**. 
 
-39. Close **Report designer**. 
+25. Click the **Tree** drop-down arrow and select **Cost centers by division**. 
 
+26. Change the base year to ‘2012’, save the changes and click **Generate**.
+    When the report opens, you can explore the report. 
 
-# Exercise 4: Create a consolidated report using an organization hierarchy
+27. Select the **Reporting tree** drop-down to view the reporting units.  
 
-You need to add an organization hierarchy in the report definition to produce a consolidated income statement and balance sheet. When the updates are complete, you'll generate the consolidated report and explore the report using the reporting tree. 
+28. Or, you can drill down on a row of the report to see all the balances for
+    all units of the reporting tree. 
 
-1. Go to **Financial reports** under **Inquiries and reports** in the **General ledger** module. 
+29. Close **Income statement – default**. 
 
-2. Select the row for the report named **Balance sheet and Income statement side by side – default**. 
+30. Close **Report designer**. 
 
-3. Select **Edit**. The **Balance sheet and income statement side by side – default** report will open in the Report designer. 
+Exercise 4: Create a consolidated report using an organization hierarchy
+========================================================================
 
-4. Select **File** > **Save as** and name the report ‘Consolidated balance sheet and income statement side by side’. 
+You need to add an organization hierarchy in the report definition to produce a
+consolidated income statement and balance sheet. When the updates are complete,
+you'll generate the consolidated report and explore the report using the
+reporting tree. 
 
-5. Change the base year to ‘2012’. 
+ 
 
-6. Click the **Tree type** drop-down arrow and select **Organization hierarchies**. 
+1.  Go to **Financial reports** under **Inquiries and reports** in the **General
+    ledger** module. 
 
-7. Click the **Tree** drop-down arrow and select **Contoso holdings**. 
+2.  Select the row for the report named **Balance sheet and Income statement
+    side by side – default**. 
 
-8. Save the changes and generate the report.  
+3.  Select **Edit**. The **Balance sheet and income statement side by side –
+    default** report will open in the Report designer. 
 
-9. If prompted, select all reporting units. When the report opens, you can explore the report. 
+4.  Select **File** \> **Save as** and name the report ‘Consolidated balance
+    sheet and income statement side by side’. 
 
-10. Select **Report options**. 
+5.  Change the base year to ‘2012’. 
 
-11. Select **Add a dimension filter** and then type ‘022’ in the **Department** field 
+6.  Click the **Tree type** drop-down arrow and select **Organization
+    hierarchies**. 
 
-12. Click **OK**. 
+7.  Click the **Tree** drop-down arrow and select **Contoso holdings**. 
 
-13. Close the filtered report. 
+8.  Save the changes and generate the report.  
 
-14. Select the **Reporting tree** drop down to view the reporting units.  
+9.  If prompted, select all reporting units. When the report opens, you can
+    explore the report. 
 
-15. Or, you can drill down on a row of the report to see all the balances for all units of the reporting tree. 
+10. Select **Report options**. 
 
-16. Close the **Consolidated balance sheet and income statement side by side** report. 
+11. Select **Add a dimension filter** and then type ‘022’ in the **Department**
+    field 
 
-17. Close the **Report designer**. 
+12. Click **OK**. 
 
+13. Close the filtered report. 
 
-# Exercise 5: Create a side-by-side departmental report
+14. Select the **Reporting tree** drop down to view the reporting units.  
 
-You need to create a new side-by-side departmental income statement report. You'll use an existing row definition, but create a new report definition and a new column definition that uses dimension filters. 
+15. Or, you can drill down on a row of the report to see all the balances for
+    all units of the reporting tree. 
 
-**Instructions** 
-1. Navigate to **Financial reports** under Inquiries and reports in **General ledger**. 
+16. Close the **Consolidated balance sheet and income statement side by side**
+    report. 
 
-2. Select **New**.  
+17. Close the **Report designer**. 
 
-3. Report designer will open with a blank report definition open.  
+Exercise 5: Create a side-by-side departmental report
+=====================================================
 
-**Creating the column definition** 
+You need to create a new side-by-side departmental income statement report.
+You'll use an existing row definition, but create a new report definition and a
+new column definition that uses dimension filters. 
 
-4. Create a new column definition by clicking **File**, then **New**, and then **Column Definition**. 
+Instructions 
 
-5. In **Column A**, select **DESC** for the column type. 
+1.  Navigate to **Financial reports** under Inquiries and reports in **General
+    ledger**. 
 
-6. In **Column B**, select **FD** for the column type. 
+2.  Select **New**.  
 
-7. Double click in **the Dimension Filter** field. 
+3.  Report designer will open with a blank report definition open.  
 
-8. In the **Dimension** window, double click the **Department** column. 
+Creating the column definition 
 
-9. In the Individual or range section of the dialog, click the **ellipsis** for the **From** field to display a list of departments. 
+1.  Create a new column definition by clicking **File**, then **New**, and
+    then **Column Definition**. 
 
-10. Select department **022**, **Sales &amp; Marketing** and then click **OK**. 
+2.  In **Column A**, select **DESC** for the column type. 
 
-11. Repeat steps 4 to 10 for Departments 023-025. 
+3.  In **Column B**, select **FD** for the column type. 
 
-12. On the **Header 2** row for each **FD** column, you need to type the department descriptions for Column **B** – **Sales and Marketing**. 
+4.  Double click in **the Dimension Filter** field. 
 
-13. On the **Header 2** row for each **FD** column, you need to type the department descriptions for Column **C – Operations**. 
+5.  In the **Dimension** window, double click the **Department** column. 
 
-14. On the Header 2 row for each FD column, you need to type the department descriptions for Column **D – Finance**. 
+6.  In the Individual or range section of the dialog, click the **ellipsis** for
+    the **From** field to display a list of departments. 
 
-15. On the Header 2 row for each FD column, you need to type the department descriptions for Column **E – IT**. 
+7.  Select department **022**, **Sales & Marketing** and then click **OK**. 
 
-16. **Save** the column definition as Side by Side Departments.  
+8.  Repeat steps 4 to 10 for Departments 023-025. 
 
-17. Since we are using an existing row definition, the report definition can now be modified to have use the newly created column definition and the existing row definition. 
+9.  On the **Header 2** row for each **FD** column, you need to type the
+    department descriptions for Column **B** – **Sales and Marketing**. 
 
-18. On the **Window** menu, select **New Report Definition** to open the report definition. 
+10. On the **Header 2** row for each **FD** column, you need to type the
+    department descriptions for Column **C – Operations**. 
 
-19. Select **Income Statement – Default** as the row definition and **Side by Side Departments** as the column definition. 
+11. On the Header 2 row for each FD column, you need to type the department
+    descriptions for Column **D – Finance**. 
 
-20. Save the report definition as **Side by Side Departmental Income Statement**. 
+12. On the Header 2 row for each FD column, you need to type the department
+    descriptions for Column **E – IT**. 
 
-21. Change the base year to **2012**. 
+13. **Save** the column definition as Side by Side Departments.  
 
-22. Change the detail level to **Financial, Account and Transaction**. 
+14. Since we are using an existing row definition, the report definition can now
+    be modified to have use the newly created column definition and the existing
+    row definition. 
 
-23. **Save** your changes and **generate**.  
+15. On the **Window** menu, select **New Report Definition** to open the report
+    definition. 
 
-24. Once the report completes generating and opens, you can explore the report. 
+16. Select **Income Statement – Default** as the row definition and **Side by
+    Side Departments** as the column definition. 
 
+17. Save the report definition as **Side by Side Departmental Income
+    Statement**. 
 
-# Exercise 6: Customer and vendor account statements
+18. Change the base year to **2012**. 
 
-You need to print accounts statements for customers and vendors that display information for a time period that you select for FRSI legal entity based on France. 
+19. Change the detail level to **Financial, Account and Transaction**. 
 
-**Instructions** 
-1. Navigate to **Accounts receivable &gt; Inquiries and reports &gt; Customers &gt; Customer account statement report - France**. 
+20. **Save** your changes and **generate**.  
 
-2. In the **From** date field, enter a date. 
+21. Once the report completes generating and opens, you can explore the report. 
 
-3. In the **To** date field, enter a date. 
+Exercise 6: Customer and vendor account statements
+==================================================
 
-4. In the **Assessment date** field, enter a date. 
+You need to print accounts statements for customers and vendors that display
+information for a time period that you select for FRSI legal entity based on
+France. 
 
-5. Click **OK**. 
+Instructions 
 
-6. Navigate to **Accounts payable &gt; Inquiries and reports &gt; Vendor reports &gt; Account statement**. 
+1.  Navigate to **Accounts receivable \> Inquiries and reports \> Customers \>
+    Customer account statement report - France**. 
 
-7. In the **From** date field, enter a date. 
+2.  In the **From** date field, enter a date. 
 
-8. In the **To** date field, enter a date. 
+3.  In the **To** date field, enter a date. 
 
-9. In the **Assessment date** field, enter a date. 
+4.  In the **Assessment date** field, enter a date. 
 
-10. Click OK. 
+5.  Click **OK**. 
+
+6.  Navigate to **Accounts payable \> Inquiries and reports \> Vendor reports \>
+    Account statement**. 
+
+7.  In the **From** date field, enter a date. 
+
+8.  In the **To** date field, enter a date. 
+
+9.  In the **Assessment date** field, enter a date. 
+
+10. Click OK. 
+
+>    
