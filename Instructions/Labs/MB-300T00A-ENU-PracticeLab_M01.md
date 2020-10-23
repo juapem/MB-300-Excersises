@@ -1,46 +1,98 @@
----
-lab:
-    title: 'MB-300.0 Practice Lab: Module 01'
-    module: 'Module 01'
----
+## Exercise 1: Work with an operational workspace
 
-## **Before you begin**
+**Scenario**: In **USMF** you are acting as a sales representative to sell item
+**A0001** to your customers. You need to check the available on-hand quantity of
+the items, find out if there is any default sales price for the item, or trade
+agreement price per customer.
 
-To get the most out of this exercise and the other exercises that are included with this module, we recommend that you have the standard sample data available in Finance and Operations that is installed using Lifecycle Services (LCS).
+If the item quantity is not enough, you need to create a purchase order for the
+customer to fulfill the demand.
 
+To complete this exercise, you should:
 
-# Exercise: Configure address books
+1.  Navigate to the Dynamics home page on the browser, and the default Dashboard
+    by selecting the **Finance and Operations** button on the top left or
+    selecting the **Home** button on the left menu.
 
-As an IT manager in USMF, you need to create an address book and describe the party records for each retail store location. You also need to create a new party and associate the party with an address book. Finally, you need to use this party to create a prospect.
+2. Select **Sales order processing and inquiry** workspace.
 
-1. Under the Navigation Pane, go to **Organization administration** > **Global address book** > **Address books**.
+3. Select **New**.
 
-2. Click **New**.
+4. Select **Sales order**.
 
-3. In the **Name** field, enter RomeStore.
+5. In the **Customer account** field, enter or select customer **US-004
+        Cave Wholesale**.
 
-4. In the **Description** field, enter Rome Store.
+6. Select **OK**.
 
-5. Click **Save**.
+7. In the Item number field, enter or select item **A0001**.
 
-6. In the **Available Teams** list, find and select the **Safety team**.
+8. In the **Warehouse** field, enter or select **11**. The site is
+        automatically populated.
 
-7. Click the right arrow to add the **Selected Teams**.
+9. Select the **Inventory** menu in the **Sales order lines** section.
 
-8. Click **Save**.
+10. Select **On-hand inventory**. Note that there is not enough quantity of
+        this item in this warehouse.
 
-9. Under the Navigation Panel, go to **Common** > **Common** > **Global address book**.
+11. Select **Close**.
 
-10. Click **New**.
+12. In the **Site** field, enter or select site **2**.
 
-11. In the **Type** field, select **Person**.
+13. In the **Warehouse** field, enter or select warehouse **21**.
 
-12. In the **First name** field, enter your first name.
+14. In the **Lead time date change, recalculate ship and receipt dates?**
+        dialog box, select **Yes**.
 
-13. In the **Last name** field, enter your last name.
+15. Select **Inventory** menu in the **Sales order lines** section.
 
-14. In the **Address book**s field, select RomeStore.
+16. Select **On-hand inventory**. Note that there is not enough quantity of
+        this item in this warehouse.
 
-15. Click **Save**.
+17. Select **Close**.
 
-16. Close all pages.
+18. From the **Sales order** Action pane, select **Purchase order**.
+
+19. In the **Vendor account** field, enter or select **US-108 City Power &
+        Light**.
+
+20. Select the **Include** check box.
+
+21. Select **Validate**.
+
+22. Select **OK**.
+
+23. Select the **General** Action pane, select **Purchase order**.
+
+24. Select **Inventory** menu in the **Purchase order lines** section.
+
+25. Select **On-hand**. Note that the quantity of 1 for **A0001** in the
+        **Ordered Reserved** field.
+
+26. Select **Close**.
+
+27. Close the purchase order page.
+
+28. Close the sales order page.
+
+29. In the **Sales order processing and inquiry** workspace and select the
+        **Unconfirmed** tab. Find the sales order you have just created in this
+        exercise. Note this sales order status is unconfirmed.
+
+30. Select the sales order you have just created in this exercise and click
+        the **Confirm** button.
+
+31. Click **OK** button.
+
+32. in the You are about to post the document without printing it. Select OK
+        to continue. Dialog box select **OK**.
+
+33. Select the Confirmed tile from in the **Sales order processing and
+        inquiry** workspace.
+
+34. Find the sales order you have just created in this exercise. Click on
+        the sales order number link to open the details page.
+
+35. Close the sales order page.
+
+36. Navigate back to default Dashboard.
