@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 06: Create an operating unit'
+    module: 'Module 02: Configure security, processes, and options'
+---
 ## Exercise 6: Create an operating unit
 
 An operating unit is an organization that is used to divide the control of
