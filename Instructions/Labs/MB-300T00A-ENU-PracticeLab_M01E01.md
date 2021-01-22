@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Work with operational workspace'
+    title: 'Exercise 1: Work with operational workspace'
     module: 'Module 1: Use common functionality and implementation tools'
 ---
 ## Exercise 1: Work with an operational workspace
