@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 03: Copy configuration data between legal entities'
+    module: 'Module 03: Manage Dynamics 365 Finance and Operation data'
+---
 ## Exercise 3: Copy configuration data between legal entities
 
 In this exercise, you will copy configuration data from legal entity **USMF**
