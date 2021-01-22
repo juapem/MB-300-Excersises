@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 03: Run a security report and analyze the output'
+    module: 'Module 02: Configure security, processes, and options'
+---
 ## Exercise 3: Run a security report and analyze the output
 
 >   Finance and Operations apps security reports can be found under **System
