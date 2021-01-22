@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 010: Use Excel workbook designer'
+    module: 'Module 02: Configure security, processes, and options'
+---
 ## Exercise 10: Create a batch job
 
 As an administrator you need to create a batch job, which is a group of tasks
