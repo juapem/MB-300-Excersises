@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Lab: Validate lab environment'
-    module: 'Module 0: Course introduction'
+    title: 'Work with operational workspace'
+    module: 'Module 1: Use common functionality and implementation tools'
 ---
 ## Exercise 1: Work with an operational workspace
 
