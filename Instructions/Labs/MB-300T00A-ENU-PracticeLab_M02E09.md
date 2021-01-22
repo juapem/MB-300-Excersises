@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 09: Use Excel workbook designer'
+    module: 'Module 02: Configure security, processes, and options'
+---
 ## Exercise 9: Use Excel workbook designer
 
 You need to use the Excel workbook designer page to create an Open in Excel
