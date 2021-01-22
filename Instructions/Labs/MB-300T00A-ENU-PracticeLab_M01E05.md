@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 05: Work with record templates'
+    module: 'Module 01: Use common functionality and implementation tools'
+---
 ## Exercise 5: Work with record templates
 
 **Scenario**: In USMF you need to create a template for similar fixed assets to
