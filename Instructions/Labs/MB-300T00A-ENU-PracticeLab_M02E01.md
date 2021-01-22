@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 01: Create users and assign security roles'
+    module: 'Module 02: Configure security, processes, and options'
+---
 ## Exercise 1: Create users and assign security roles
 
 >   In this exercise, we will create two new users and assign security roles to
