@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 04: Create search queries and save for future use'
+    module: 'Module 01: Use common functionality and implementation tools'
+---
 ## Exercise 4: Create search queries and save for future use
 
 1.  Go to **Fixed assets \> Fixed assets \> Fixed assets.**
