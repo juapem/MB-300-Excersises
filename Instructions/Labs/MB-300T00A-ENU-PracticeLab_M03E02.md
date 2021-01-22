@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 02: Export and import data'
+    module: 'Module 03: Manage Dynamics 365 Finance and Operation data'
+---
 ## Exercise 2: Export and import data
 
 >   The goal of the lab exercise is to apply the knowledge we have learned
