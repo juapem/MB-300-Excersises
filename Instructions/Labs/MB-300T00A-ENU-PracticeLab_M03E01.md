@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 01: Work with templates in the Data management workspace'
+    module: 'Module 03: Manage Dynamics 365 Finance and Operation data'
+---
 ## Exercise 1: Work with templates in the Data management workspace
 
 >   The goal of the lab exercise is to apply the knowledge we have learned
