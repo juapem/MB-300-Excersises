@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Lab: Validate lab environment'
+    module: 'Module 0: Course introduction'
+---
 ## Exercise 1: Work with an operational workspace
 
 **Scenario**: In **USMF** you are acting as a sales representative to sell item
