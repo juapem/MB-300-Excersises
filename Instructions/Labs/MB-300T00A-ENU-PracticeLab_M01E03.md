@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 03: Perform searches and work with filters'
+    module: 'Module 01: Use common functionality and implementation tools'
+---
 ## Exercise 3: Perform searches and work with filters
 
 1.  Go to **Accounts payable \> Vendors \> All vendors**.
