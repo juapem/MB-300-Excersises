@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 04: Create a purchase requisition workflow'
+    module: 'Module 02: Configure security, processes, and options'
+---
 ## Exercise 4: Create a purchase requisition workflow
 
 >   The Finance and Operations app that you're working in determines the type of
