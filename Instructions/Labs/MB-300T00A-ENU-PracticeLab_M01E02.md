@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 02: Prepare, enable, and use Business document management'
+    module: 'Module 01: Use common functionality and implementation tools'
+---
 ## Exercise 2: Prepare, enable, and use Business document management
 
 >   **Scenario**: You must import [Sample ER
