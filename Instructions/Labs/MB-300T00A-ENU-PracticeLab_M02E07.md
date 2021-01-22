@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 07: Set up number sequences'
+    module: 'Module 02: Configure security, processes, and options'
+---
 ## Exercise 7: Set up number sequences
 
 Number sequences are used to generate readable, unique identifiers for master
