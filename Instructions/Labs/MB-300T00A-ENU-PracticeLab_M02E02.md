@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 02: Set up segregation of duties'
+    module: 'Module 02: Configure security, processes, and options'
+---
 ## Exercise 2: Set up segregation of duties
 
 >   The HR department of USMF has requested a rule for segregation of duties for
