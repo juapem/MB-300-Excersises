@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 08: Create an Organization Hierarchy and assign purpose'
+    module: 'Module 02: Configure security, processes, and options'
+---
 ## Exercise 8: Create an Organization Hierarchy and assign purpose
 
 You can use organizational hierarchies to view and report on your business from
