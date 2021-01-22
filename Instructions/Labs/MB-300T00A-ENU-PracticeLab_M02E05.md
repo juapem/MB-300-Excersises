@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Exercise 05: Configure a new legal entity'
+    module: 'Module 02: Configure security, processes, and options'
+---
 ## Exercise 5: Configure a new legal entity
 
 The goal of the lab exercise is to apply the knowledge we’ve learned regarding
