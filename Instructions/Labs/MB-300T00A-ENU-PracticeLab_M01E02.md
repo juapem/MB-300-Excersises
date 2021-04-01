@@ -1,69 +1,41 @@
----
-lab:
-    title: 'Exercise 02: Prepare, enable, and use Business document management'
-    module: 'Module 01: Use common functionality and implementation tools'
----
-## Exercise 2: Prepare, enable, and use Business document management
+Exercise 2: Prepare, enable, and use Business document management
+-----------------------------------------------------------------
 
->   **Scenario**: You must import [Sample ER
->   configurations](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg),
->   into your current instance of Dynamics 365 Finance, the ER configurations
->   that contain the business document templates that can be edited by using
->   Business document management. Download, and then locally store the following
->   files to complete this procedure.
+**Scenario**: you need to demonstrate the usage of Business document management (BDM) in **USMF**. Depending on the VM you are using the preview option of Business document management may not be working properly due to restrictions on the VM applied by the hosting company.
 
->   In this exercise you will import the ER *data model* configuration of each
->   ER solution from the following list before you import the corresponding ER
->   *format* configuration;
+**Note:** you will not have the preview issue if you are working with your own environment.
 
->   **Important**: Click on the hyper link to download the data model and save
->   it in the **Download** folder on your VM running an instance of **Dynamics
->   365 Finance**.
+In this exercise you will import the data from a free text invoice into an excel template by using the ER *data model *configuration which is provided as part of this lab in XML format.
+
+**Important**: Click on the hyper link to download the data model and save it in the **Download** folder on your VM running an instance of **Dynamics 365 Finance**.
 
 -   **Sample ER customer invoicing solution**
 
-    -   [Customer invoicing
-        model.version.2.xml](https://mbs.microsoft.com/files/public/CS/AX/Customerinvoicingmodelversion2.xml)
+    -   Customer invoicing model.version.2.xml
 
-    -   [Customer FTI report
-        (GER).version.2.3.xml](https://mbs.microsoft.com/files/public/CS/AX/CustomerFTIreportGERversion23.xml)
+    -   Customer FTI report (GER).version.2.3.xml
 
--   **Sample ER payment checks solution**
-
-    -   Model for cheques.version.10.xml
-
-    -   [Cheques printing
-        format.version.10.9.xml](https://mbs.microsoft.com/files/public/CS/AX/Chequesprintingformatversion109.xml)
-
--   **Sample ER foreign trade solution**
-
-    -   [Intrastat
-        model.version.1.xml](https://mbs.microsoft.com/files/public/CS/AX/Intrastatmodelversion1.xml)
-
-    -   [Intrastat
-        report.version.1.9.xml](https://mbs.microsoft.com/files/public/CS/AX/Intrastatreportversion19.xml)
-
-Each ER configuration will refer to the provider as the author of the
+The ER configuration will refer to the provider as the author of the
 configuration. In this example, you will create a configuration provider for
 sample company, **Litware, Inc.** These steps can be performed in any company as
 ER configuration providers are shared among all companies.
 
 ### Create a provider
 
-1.  Go to the **navigation pane** in the upper left corner and select
-    **Organization administration**.
+1.  Go to the **navigation pane** in the upper left corner and
+    select **Organization administration**.
 
-2.  Go to **Workspaces \> Electronic reporting**.
+2.  Go to **Workspaces > Electronic reporting**.
 
-3.  Go to **Related links \> Configuration providers**.
+3.  Go to **Related links > Configuration providers**.
 
-4.  Select **New**.
+4.  Select **New**.
 
-5.  In the Name field, type Litware, Inc**.**
+5.  In the Name field, type **Litware, Inc.**
 
-6.  In the Internet address field, type http://www.litwareinc.com/
+6.  In the Internet address field, type **http://www.litwareinc.com/**
 
-7.  Select **Save**.
+7.  Select **Save**.
 
 8.  Close the page.
 
@@ -73,116 +45,77 @@ ER configuration providers are shared among all companies.
 
 2.  Click **…** drop down.
 
-3.  Select **Set active**.
+3.  Select **Set active**.
 
 ### Import ER solutions
 
-Import the ER *data model* configuration of each ER solution in the tables above
-before you import the corresponding ER *format* configuration.
+Import the ER *data model* configuration of each ER solution in the tables above
+before you import the corresponding ER *format* configuration.
 
-1.  Select the **Organization administration** \> **Electronic reporting** \>
-    **Reporting Configurations** tile.
+1.  Select the **Organization administration** \> **Electronic
+    reporting** \> **Reporting Configurations** tile.
 
-2.  On the top of the page, select **Exchange**.
+2.  Select the first node on the top of the page,
 
-3.  Select **Load from XML file**.
+3.  Select **Exchange** button.
 
-4.  Select **Browse** to load the required XML file.
+4.  Select **Load from XML file**.
 
-5.  Select **Customerinvoicingmodelversion2**
+5.  Select **Browse** to load the required XML file.
 
-6.  Select **OK** to confirm configuration's import.
+6.  Select **Customerinvoicingmodelversion2.xml**
 
-7.  Repeat step 2 through 4
+7.  Select **OK** to confirm configuration's import.
 
-8.  Select **CustomerFTIreportGERversion23**
+8.  This will create a new node “**Customer Invoicing model”**
 
-9.  Select **OK** to confirm configuration's import.
+9.  Select the “**Customer Invoicing model”** node.
 
-10. On the top of the page, select **Exchange**.
+10. Select **Exchange** button.
 
-11. Select **Load from XML file**.
+11. Select **Load from XML file**.
 
-12. Select **Browse** to load the required XML file.
+12. Select **Browse** to load the required XML file.
 
-13. Select **Intrastatmodelversion1**
+13. Select **CustomerFTIreportGERversion23**
 
-14. Select **OK** to confirm configuration's import.
+14. Select **OK** to confirm configuration's import.
 
-15. Select **Intrastat model**
+15. This will create a new sub-node “**Customer FTI report (GER)”**
 
-16. Repeat step 10 through 12
+16. Select “**Customer FTI report (GER)”**
 
-17. Select **Intrastatreportversion19**
+17. Select **Designer** button.
 
-18. Select **OK** to confirm configuration's import.
+18. Expand **Report**
 
-19. Expand Electronic ledger accounting model MX node
+19. Expand **Invoice**
 
-20. Select Auxiliary Ledger XML MX
+20. Review the sub-nodes and the values of the **Format** tab on the right-hand
+    side.
 
-21. Click Delete
+21. Select the **Mapping** tab and review the values.
 
-22. Click Ok.
+22. Close the **Designer** form.
 
-23. Select Chart of Account XML MX
+23. Close the **Reporting Configuration** form.
 
-24. Click Delete
+24. Click on the **Home** button.
 
-25. Click Ok.
+### Verify Business document management feature is enabled
 
-26. Select Journals XML MX
+To start Business document management, you need to open the **Feature
+management** workspace and enable the **Business document management** feature.
 
-27. Click Delete
+1.  Open the **Feature management** workspace.
 
-28. Click Ok.
+2.  Select **All** tab.
 
-29. Select Trial Balance XML MX
+3.  In the quick filter type **Business,** then press enter**.**
 
-30. Click Delete
+4.  Make sure the **Business document management** feature is enabled.
 
-31. Click Ok.
-
-32. Select Electronic ledger accounting model MX node
-
-33. On the top of the page, select **Exchange**.
-
-34. Select **Load from XML file**.
-
-35. Select **Browse** to load the required XML file.
-
-36. Select **Modelforchequesversion10**
-
-37. Select **OK** to confirm configuration's import.
-
-38. Repeat step 33 through 35
-
-39. Select **Modelforchequesversion10**
-
-40. Select **OK** to confirm configuration's import.
-
-41. Select **Model for cheques**
-
-42. On the top of the page, select **Exchange**.
-
-43. Select **Load from XML file**.
-
-44. Select **Browse** to load the required XML file.
-
-45. Select **Chequesprintingformatversion109**
-
-46. Select **OK** to confirm configuration's import.
-
-47. Close the page.
-
-### Enable Business document management
-
-To start Business document management, you need to open the **Feature
-management** workspace and enable the **Business document management** feature.
-
-1.  Open the **Feature management** workspace.
-
-2.  Make sure the **Business document management** feature is enabled.
+5.  Click **Home**.
 
 ### Configure access permissions
 
@@ -191,15 +124,16 @@ enabled, every user with access to the Business document management workspace
 will see all of the ER solution templates that are available.
 
 The Business document management workspace will show only those templates that
-reside in ER format configurations and that are marked by a **Business document
-type** tag.
+reside in ER format configurations and that are marked by a **Business document
+type** tag.
 
-1.  Go to **Organization administration** \> **Electronic reporting** \>
-    **Business document management** \> **Manage access permissions**.
+1.  Go to **Organization administration** \> **Electronic
+    reporting** \> **Business document management** \> **Manage access
+    permissions**.
 
 2.  Click **Access permission settings**
 
-3.  Select **Yes**.
+3.  Set the **Apply configured access permission**, to **Yes**.
 
 4.  Click **Ok**.
 
@@ -215,20 +149,60 @@ type** tag.
 
 10. Select **invoicing** in the **Id** field.
 
-11. Under the **Access permission per configuration** section, click **New.**
+11. Under the **Access permission per configuration** section, click **Add.**
 
 12. Select **Customer FTI report (GER)** in the **Name** field.
 
 13. Click **Save**.
 
+14. Close the form.
+
 ### Business document management Workspace
 
-1.  Go to Business document management workspace
+1.  Go to **Business document management** workspace
 
 2.  Click **New document** button.
 
 3.  Select **Invoicing**.
 
-4.  In order to create a template you can click **Create document.**
+4.  To create a template you can click **Create document** button**.**
 
-5.  Close all pages.
+5.  In the Name field type “**My Free Text Excel Business Document**”
+
+6.  Select **OK**.
+
+**Note:** If you are using VM hosted by vendors rather than your environment you
+will receive an error message while previewing the excel document. Click **Ok**.
+
+1.  Select **Check for issues** button.
+
+2.  Select the **Open in Desktop App** button.
+
+3.  Select **Save > Save As**. Choose download folder and click **Save**.
+
+4.  Select **Open folder** button.
+
+5.  Select the **Free Text Invoice Template**.
+
+6.  Double **Open**.
+
+7.  If the Office activation form appears, click **Close**.
+
+8.  View the format.
+
+9.  Close the workbook.
+
+10. Navigate to **Business document management** workspace.
+
+**Note**: if you see ‌an error message that service is not available is due to
+not having a license of Office 365 online or have not logged on to the Office
+365 services for editing the template. If you are using the VM hosted by a
+vendor you will see this message.
+
+1.  You can delete the document by selecting **Action >Delete**.
+
+2.  You can publish your business document by selecting **Publish** button.
+
+3.  Click **Publish** button.
+
+4.  Click **Yes**.
