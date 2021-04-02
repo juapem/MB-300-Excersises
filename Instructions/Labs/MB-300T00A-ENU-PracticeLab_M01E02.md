@@ -11,9 +11,9 @@ In this exercise you will import the data from a free text invoice into an excel
 
 -   **Sample ER customer invoicing solution**
 
-    -  [Customer invoicing model.version.2.xml](MB-300-Microsoft-Dynamics-365-Core-Finance-and-Operations/Allfiles/Labs/) 
+    -  [Customer invoicing model.version.2.xml](https://github.com/MicrosoftLearning/MB-300-Microsoft-Dynamics-365-Core-Finance-and-Operations/tree/master/Allfiles/Labs) 
 
-    -  [Customer FTI report (GER).version.2.3.xml](MB-300-Microsoft-Dynamics-365-Core-Finance-and-Operations/Allfiles/Labs/)
+    -  [Customer FTI report (GER).version.2.3.xml](https://github.com/MicrosoftLearning/MB-300-Microsoft-Dynamics-365-Core-Finance-and-Operations/tree/master/Allfiles/Labs)
 
 The ER configuration will refer to the provider as the author of the
 configuration. In this example, you will create a configuration provider for
